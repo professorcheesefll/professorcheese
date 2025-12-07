@@ -1,0 +1,81 @@
+#logo {
+    width: 150px;
+    height: auto;
+    margin: 10 px;
+    float: left;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+#logolink img {
+    transition: transform 0.5s ease;
+}
+
+#logolink img:hover {
+    transform: scale(1.1);
+}
+
+#websiteTitle {
+    font-family: 'Lexend', sans-serif;
+    color: #6a329f;
+    font-size: 48px;
+}
+
+h2 {
+    font-family: 'Lexend', sans-serif;
+    color: #6a329f;
+    font-size: 36px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #6a329f;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ul li {
+    flex: 1;
+    min-width: 150px;
+}
+
+body {
+
+    background-color: #f9f9f9;
+}
+
+ul li a {
+    display: block;
+    color: #e3f233;
+    text-align: center;
+    padding: 20px 30px;
+    text-decoration: none;
+    font-family: 'Lexend', sans-serif;
+    
+}
+
+ul li a:hover {
+    background-color: #e3f233;
+    color: #6a329f;
+    border: 2px solid #6a329f;
+}
+
+ol {
+    list-style-type: decimal;
+}
+
+ol li {
+    font-family: 'Lexend', sans-serif;
+    color: #000000;
+}
+
+p {
+    font-family: 'Lexend', sans-serif;
+    color: #000000;
+}
