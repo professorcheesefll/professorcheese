@@ -1,0 +1,132 @@
+/* =========================================================
+   GLOBAL UNIVERSAL STYLESHEET FOR PROFESSOR CHEESE WEBSITE
+   (Used by all general pages except index.html)
+   ========================================================= */
+
+/* ---------------------------------------------------------
+   Typography
+   --------------------------------------------------------- */
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Lexend', sans-serif;
+    color: #6a329f;
+    font-size: 36px; /* Override per-heading if needed */
+}
+
+/* Paragraphs */
+p {
+    font-family: 'Lexend', sans-serif;
+    color: #000000;
+}
+
+/* Lists */
+ol, ul {
+    font-family: 'Lexend', sans-serif;
+    color: #000000;
+}
+
+ol {
+    list-style-type: decimal;
+}
+
+.normalul {
+    list-style-type: disc;
+}
+
+.normalulelaborate {
+    list-style-type: circle;
+}
+
+/* ---------------------------------------------------------
+   Body / Background
+   --------------------------------------------------------- */
+
+body {
+    background-color: #f9f9f9;
+}
+
+/* ---------------------------------------------------------
+   Logo & Mascot
+   --------------------------------------------------------- */
+
+#logolink img:hover {
+    transform: scale(1.1);
+}
+
+.logo {
+    width: 150px;
+}
+
+.reacting {
+    width: 100px;
+}
+
+/* ---------------------------------------------------------
+   Page Title
+   --------------------------------------------------------- */
+
+#websiteTitle {
+    font-family: 'Lexend', sans-serif;
+    color: #6a329f;
+    font-size: 48px;
+}
+
+/* ---------------------------------------------------------
+   Buttons (Link Buttons)
+   --------------------------------------------------------- */
+
+.linkbutton {
+    background-color: #6a329f;
+    color: #e3f233;
+    padding: 15px 25px;
+    display: inline-block;
+    text-decoration: none;
+    font-family: 'Lexend', sans-serif;
+    border-radius: 9999px;
+    transition: 0.15s ease-in-out;
+}
+
+/* Hover */
+.linkbutton:hover {
+    background-color: #e3f233;
+    color: #6a329f;
+    padding: 13px 23px;
+    border: 2px solid #6a329f;
+}
+
+/* Active */
+.linkbutton:active {
+    background-color: #9ACD32;
+    color: #5f2d8f;
+    padding: 10px 20px;
+    border: 5px solid #5f2d8f;
+}
+
+.linkbuttonmodule {
+    background-color: #6a329f;
+    color: #e3f233;
+    padding: 15px 25px;
+    display: inline-block;
+    text-decoration: none;
+    font-family: 'Lexend', sans-serif;
+    border-radius: 9999px;
+    transition: 0.15s ease-in-out;
+    font-size: 24px;
+}
+
+/* Hover */
+.linkbuttonmodule:hover {
+    background-color: #e3f233;
+    color: #6a329f;
+    padding: 13px 23px;
+    border: 2px solid #6a329f;
+}
+
+/* Active */
+.linkbuttonmodule:active {
+    background-color: #9ACD32;
+    color: #5f2d8f;
+    padding: 10px 20px;
+    border: 5px solid #5f2d8f;
+}
