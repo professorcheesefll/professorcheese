@@ -186,3 +186,12 @@ header {
     padding: 15px 27px;
 
 }
+
+/* Container styling below */
+
+.container {
+    max-width: 1200px;  /* I heard that 1200 px is the good amount for breathing room on a site...*/
+    margin: 0 auto;     /* centering the content is kinda also important - i need to look back at this part.*/
+    padding: 0 20px;    
+    box-sizing: border-box;
+}
