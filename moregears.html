@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <!--Module name--> 
+    <title>Professor Cheese - More Gear Types</title>
+
+
+    <!--Encoding characters-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <!--Font connection-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap" rel="stylesheet">
+
+
+    <!--Favicon-->
+    <link rel="icon" type="image/png" href="professorCheeseLogo.png">
+
+
+    <!--CSS pairing-->
+    <link href="professorcheesestyle.css" rel="stylesheet" type="text/css">
+
+    
+</head>
+
+<body>
+
+<header>
+    <a href="index.html" id="logolink"><img src="professorCheeseLogo.png" id="logo" alt="Professor Cheese logo"></a>
+    <h1 id="websiteTitle">Professor Cheese</h1>
+    <a href="fundamentals.html" class="linkbutton linkbutton--right">Go Back to Fundamentals</a>
+</header>
+
+
+<div class="page-layout">
+
+    <nav class="sidebar">
+        <ul>
+            <li>
+                <a href="engineeringdesignprocess.html">Module 1: Engineering Design Process</a>
+            </li>
+
+            <li>
+                <a href="studio2tutorial.html">Module 2: Using Studio 2.0 for Planning</a>
+            </li>
+
+            <li>
+                <a href="legogeometry.html">Module 3: SPIKE Prime and Technic Tips</a>
+            </li>
+
+            <li>
+                <a href="gears.html">Module 4: Gears</a>
+            </li>
+
+            <li>
+                <a href="gearratios.html">Module 5: Gear Ratios</a>
+            </li>
+
+            <li>
+                <a href="moregears.html" class="current">Module 6: More Gear Types</a>
+            </li>
+
+            <li>
+                <a href="pulleys.html">Module 7: Pulleys</a>
+            </li>
+
+            <li>
+                <a href="framesandbracing.html">Module 8: Frames and Bracing</a>
+            </li>
+
+            <li>
+                <a href="robotfundamentals.html">Module 9: Building a Robot</a>
+            </li>
+
+            <li>
+                <a href="toolsandattachments.html">Module 10: Tools and Attachments</a>
+            </li>
+        </ul>
+
+    </nav>
+<main class="container">
+
+        <div class="glass">
+        
+            <h1>Module 6: More Gear Types</h1>
+
+            <p>
+                Turns out, there are many gear types. 2 modules ago, we merely glossed over it. LEGO has its own renditions of it, and in this module, we'll take a look at each gear type along with downloadable Studio files demonstrating them.
+            </p>
+        </div>
+
+        <section>
+            <h2>Spur Gears</h2>
+
+            <p>The spur gear is the most common type of gear. They are designed to transfer rotational motion with <strong>parallel axles</strong> (also called shafts). It is simple. Below is an example of a spur gear train.
+            </p>
+
+            <div class="glass">
+                <img src="module6image1.png" class="rounded-image">
+                <a href="Module6-Model1.io" class="linkbutton linkbutton--newline" download>Download Studio 2.0 File</a>
+            </div>
+
+            <p>These are all the common LEGO spur gears:</p>
+            <img src="module6image2.png" class="rounded-image">
+        </section>
+
+        <section>
+            <h2>Bevel Gears</h2>
+
+            <p>Unlike spur gears, bevel gears don't connect from parallel shafts/axles. Instead, in LEGO, they form stricly perpendicular connections with other bevel gears, including double bevel gears, which we'll explore later. Below is an example of a bevel gear train.</p>
+
+            <div class="glass">
+                <img src="module6image3.png" class="rounded-image">
+                <a href="Module6-Model2.io" class="linkbutton linkbutton--newline" download>Download Studio 2.0 File</a>
+            </div>
+
+            <p>In the Studio model above, we have 4 bevel gears, of which there are 3 follower gears and 1 driver gear. The model looks like this to remind you that gear trains simply don't need to have strictly 2 gears. 
+                These are all the common LEGO bevel gears:
+            </p>
+
+            <img src="module6image4.png" class="rounded-image">
+
+            <p>As you can see, there's not that many. This is because the nature of bevel gears themselves in SPIKE Prime is limited, and overshadowed by <strong>double bevel gears.</strong>
+            </p>
+        </section>
+
+        <section>
+            <h2>Double Bevel Gears</h2>
+
+            <p>Double bevel gears can be connected perpendicular and parallel to each other. They are the intermediate between both worlds. This is an example of a double bevel gear train below.</p>
+
+            <div class="glass">
+                <img src="module6image5.png" class="rounded-image">
+                <a href="Module6-Model3.io" class="linkbutton linkbutton--newline" download>Download Studio 2.0 File</a>
+
+            </div>
+
+            <div class="glass">
+                <img src="module6image6.png" class="rounded-image">
+                <a href="Module6-Model4.io" class="linkbutton linkbutton--newline" download>Download Studio 2.0 File</a>
+            </div>
+
+            <p>
+                Double bevel gears are compatible with normal bevel gears too, and to the right side of the image here (where there are red bushings) you'll see a double bevel gear instead of a bevel one. This is to create more stability through a larger surface area contact on the black bracket (Y-shaped part), which allows for less gear tipping. using this on a robot is a good idea. 
+                These are all the common LEGO double bevel gears:
+            </p>
+
+            <img src="module6image7.png" class="rounded-image">
+            
+        </section>
+
+        <section>
+            <h2>Clarification</h2>
+
+            <p>It might be tempting to say, "Well, why don't we just use double bevel gears all the time instead of spur gears and bevel gears?" The answer is not that complicated. If you've scruitinized a bevel gear before, you'll see it's not just used for perpendicular connections, it's designed for it only (in LEGO)! Bevel gears are also typically thinner than double bevel gears, 
+                meaning they can be used in space efficiency scenarios. This Studio file perfectly demonstrates how space efficient bevel gears are for their purpose compared to double bevel gears:
+            </p>
+
+            <div class="glass">
+            <img src="module6image8.png" class="rounded-image">
+            <a href="Module6-Model5.io" class="linkbutton linkbutton--newline" download>Download Studio 2.0 File</a>
+            </div>
+
+            <p>Download the Studio file. It will really help you understand why we don't spam double bevel gears all over our robots and tools.</p>
+
+            <p>The same idea works with spur gears too. Spur gears are thinner than double bevel gears, and usually provide better parallel connections under the right circumstances.</p>
+        </section>
+
+        <section>
+            <h2>Worm Gears</h2>
+
+
+            <p>Worm gears are spectacular for achieving unprecedented torque without taking up much space and using too many parts. The follower gear when the worm gear is driving is usually a spur gear.</p>
+
+            <div class="glass">
+                <img src="module6image9.png" class="rounded-image">
+                <a href="Module6-Model6.io" class="linkbutton linkbutton--newline" download>Download Studio 2.0 File</a>
+            </div>
+
+            <p>This isn't a competition-ready use of a worm gear, as it isn't built for a robot game. Rather, it's just an example of how to use a worm gear. For competition-ready framing an bracing, you'll learn that in module 8. This is the only common LEGO worm gear:</p>
+
+            <img src="module6image10.png" class="rounded-image">
+        </section>
+
+        <section>
+            <h2>Knob Gears</h2>
+
+            <p>These gears aren't commonly used, but they are similar to double bevel gears. Their most common use is for perpendicular connections. Their biggest advantage is low slippage, despite weak bracing/framing methods. It is partly due to the large teeth.</p>
+
+            <div class="glass">
+                <img src="module6image11.png" class="rounded-image">
+                <a href="Module6-Model7.io" class="linkbutton linkbutton--newline" download>Download Studio 2.0 File</a>
+            </div>
+
+            <div class="glass">
+                <img src="module6image12.png" class="rounded-image">
+                <a href="Module6-Model8.io" class="linkbutton linkbutton--newline" download>Download Studio 2.0 File</a>
+            </div>
+        </section>
+
+        <section>
+            <h2>Takeaway</h2>
+
+            <p>Using the knowledge you've learned from Professor Cheese, you can now choose which gear you want to use depending on the situation. It is very likely you might not want to use worm gears or knob gears at all. That's okay. Build diversity after mastery of a couple of gears.</p>
+        </section>
+
+
+
+
+
+
+    <a href="pulleys.html" class="linkbutton">Done? Go to Module 7</a>
+</main>
+</div>
+
+</body>
+
+</html>
