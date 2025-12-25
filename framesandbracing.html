@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <!--Module name--> 
+    <title>Professor Cheese - Frames and Bracing</title>
+
+
+    <!--Encoding characters-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <!--Font connection-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap" rel="stylesheet">
+
+
+    <!--Favicon-->
+    <link rel="icon" type="image/png" href="professorCheeseLogo.png">
+
+
+    <!--CSS pairing-->
+    <link href="professorcheesestyle.css" rel="stylesheet" type="text/css">
+
+    
+</head>
+
+<body>
+
+<header>
+    <a href="index.html" id="logolink"><img src="professorCheeseLogo.png" id="logo" alt="Professor Cheese logo"></a>
+    <h1 id="websiteTitle">Professor Cheese</h1>
+    <a href="fundamentals.html" class="linkbutton linkbutton--right">Go Back to Fundamentals</a>
+</header>
+
+
+<div class="page-layout">
+
+    <nav class="sidebar">
+        <ul>
+            <li>
+                <a href="engineeringdesignprocess.html">Module 1: Engineering Design Process</a>
+            </li>
+
+            <li>
+                <a href="studio2tutorial.html">Module 2: Using Studio 2.0 for Planning</a>
+            </li>
+
+            <li>
+                <a href="legogeometry.html">Module 3: SPIKE Prime and Technic Tips</a>
+            </li>
+
+            <li>
+                <a href="gears.html">Module 4: Gears</a>
+            </li>
+
+            <li>
+                <a href="gearratios.html">Module 5: Gear Ratios</a>
+            </li>
+
+            <li>
+                <a href="moregears.html">Module 6: More Gear Types</a>
+            </li>
+
+            <li>
+                <a href="pulleys.html">Module 7: Pulleys</a>
+            </li>
+
+            <li>
+                <a href="framesandbracing.html" class="current">Module 8: Frames and Bracing</a>
+            </li>
+
+            <li>
+                <a href="robotfundamentals.html">Module 9: Building a Robot</a>
+            </li>
+
+            <li>
+                <a href="toolsandattachments.html">Module 10: Tools and Attachments</a>
+            </li>
+        </ul>
+
+    </nav>
+<main class="container">
+
+        <div class="glass">
+            <h1>Module 8: Frames and Bracing</h1>
+
+            <p>We've looked at gears for about 3 modules, but what happens when they slip? They shouldn't. In this module, you'll learn about frames and how they prevent slippage. We'll also look at a technique called bracing, which can help make a structure stronger. </p>
+        </div>
+
+        <section>
+            <h2>Frames</h2>
+
+            <p>Frames secure gears together to avoid making them slip. They are absolutely necessary to avoid mistakes. Without frames, moving parts on your robot wouldn't work well. They can be inconsistent and unreliable. You want really useful robots, not rickety ones. Fortunately, if you've seen the previous modules, you're familiar with Professor Cheese using these parts:</p>
+
+            <img src="module8image1.png" class="rounded-image">
+
+            <p>Without respect to driver gears and follower gears (and motors), below is an example of a frame with gears. Instead of motors, Professor Cheese has added two knobs if you ever build this frame in real life to test it out.</p>
+
+            <div class="glass">
+                <img src="module8image2.png" class="rounded-image">
+                <a href="Module8-Model1.io" class="linkbutton linkbutton--newline" download>Download Studio 2.0 File</a>
+            </div>
+
+            <p>As you can see, the frame forces the gears to stay together. The thick, rectangular border (all 4 sides together) enhances this capability. There are other kinds of frames too, such as the ones below. However, they aren't ideal for framing gears because they are too large. They cause axles to shift.</p>
+            <img src="module8image3.png" class="rounded-image">
+
+            <p>Below are <strong>some of the gearing combinations with frames with the default "Technic, Liftarm, Modified Frame Thick 5x7 Open Center" frame.</strong></p>
+
+
+            <div class="glass">
+                <img src="module8image4.png" class="rounded-image">
+                <a href="Module8-Model2.io" class="linkbutton linkbutton--newline" download>Download Studio 2.0 File</a>
+            </div>
+
+            <div class="glass">
+                <img src="module8image5.png" class="rounded-image">
+                <a href="Module8-Model3.io" class="linkbutton linkbutton--newline" download>Download Studio 2.0 File</a>
+            </div>
+
+            <div class="glass">
+                <img src="module8image6.png" class="rounded-image">
+                <a href="Module8-Model4.io" class="linkbutton linkbutton--newline" download>Download Studio 2.0 File</a>
+            </div>
+
+            <div class="glass">
+                <img src="module8image7.png" class="rounded-image">
+                <a href="Module8-Model5.io" class="linkbutton linkbutton--newline" download>Download Studio 2.0 File</a>
+            </div>
+
+            <div class="glass">
+                <img src="module8image8.png" class="rounded-image">
+                <a href="Module8-Model6.io" class="linkbutton linkbutton--newline" download>Download Studio 2.0 File</a>
+            </div>
+
+        </section>
+
+        <section>
+            <h2>Alternate Framing Method</h2>
+
+            <p>Besides using the regular frame, there is an another part that can do the same, but for bevel gears and double bevel gears to increase space efficiency.</p>
+
+            <div class="glass">
+                <img src="module8image9.png" class="rounded-image">
+                <a href="Module8-Model7.io" class="linkbutton linkbutton--newline" download>Download Studio 2.0 File</a>
+            </div>
+
+            <p>Bevel gears, as explored before, aren't so effective in the regular frames due to their thickness.</p>
+
+            <h2>What's the Alternate Frame Called in Studio?</h2>
+
+            <p>Unfortunately, Studio has interesting naming for this black frame piece you see above. It is called the "Technic, Pin Connector Toggle Joint Smooth Double with Axle and Pin Holes". That's 12 words! A pro tip is to 
+                search for this part in the SPIKE Prime Expansion Set whenever you need it.
+            </p>
+        </section>
+
+        <section>
+            <h2>Bracing</h2>
+
+            <p>Bracing is used to effectively resist a structure on your robot against torsion. <strong>Torsion</strong> is when a part is stressed and rotated unevenly. It is the twisting of an object due to applied forces from outside. Think of rotating an axle from the ends in opposite directions. That's torsion! Due to how LEGO uses strictly discrete units (studs) for measurements, you usually can't build your entire robot with bracing. However, bracing can be used well for borders on a robot, and it greatly prevents liftarms from twisting. We'll talk about borders around a robot in Module 9.</p>
+
+            <p>The reason why you won't find a lot of people talking about this is because it's subtle. But, it is a crucial technique when applying this to areas that need lots of support. It's for structure. Bracing isn't about creating triangles. Instead, this example below showcases two "transversals" applying structure against each other to prevent torsion and give structure.</p>
+
+            <div class="glass">
+                <img src="module8image10.png" class="rounded-image">
+                <a href="Module8-Model8.io" class="linkbutton linkbutton--newline" download>Download Studio 2.0 File</a>
+            </div>
+        </section>
+    <a href="robotfundamentals.html" class="linkbutton">Done? Go to Module 9</a>
+</main>
+</div>
+
+</body>
+
+</html>
