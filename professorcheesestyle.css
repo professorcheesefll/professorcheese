@@ -1,0 +1,466 @@
+/* =========================================================
+   GLOBAL UNIVERSAL STYLESHEET FOR PROFESSOR CHEESE WEBSITE
+   (Used by all general pages except index.html)
+   ========================================================= */
+
+/* ---------------------------------------------------------
+   Typography
+   --------------------------------------------------------- */
+
+/* Headings */ 
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Lexend', sans-serif;
+    color: #6a329f;
+}
+
+h1 {
+    font-size: 48px;
+}
+
+h2 {
+    font-size: 36px;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+h4 {
+    font-size: 18px;
+}
+
+h5 {
+    font-size: 15px;
+}
+
+h6 {
+    font-size: 12px;
+}
+
+
+/* Paragraphs */
+p {
+    font-family: 'Lexend', sans-serif;
+    color: #000000;
+    line-height: 1.65;
+}
+
+ol {
+    list-style-type: decimal;
+
+}
+
+.normalul {
+    list-style-type: disc;
+    font-family: 'Lexend', sans-serif;
+}
+
+.normalul li {
+    line-height: 1.65;
+}
+
+.normalulelaborate {
+    list-style-type: circle;
+    font-family: 'Lexend', sans-serif;
+}
+
+.normalulelaborate li {
+    line-height: 1.65;
+}
+
+/* ---------------------------------------------------------
+   Body / Background
+   --------------------------------------------------------- */
+
+body {
+    background-color: #ffffff;
+    font-family: 'Lexend', sans-serif;
+}
+
+/* ---------------------------------------------------------
+   Logo & Mascot
+   --------------------------------------------------------- */
+
+#logo {
+    width: 150px;
+    height: auto;
+    float: left;
+    margin-right: 0.75rem;
+}
+
+
+
+#logolink img {
+    transition: transform 0.5s ease;
+}
+
+#logolink img:hover {
+    transform: scale(1.1);
+}
+
+.reacting {
+    width: 200px;
+    height: auto;
+    display: block;
+}
+/* ---------------------------------------------------------
+   Page Title
+   --------------------------------------------------------- */
+
+#websiteTitle {
+    font-family: 'Lexend', sans-serif;
+    color: #6a329f;
+    font-size: 48px;
+    margin-bottom: 0.5rem;
+    white-space: nowrap;
+}
+
+/* ---------------------------------------------------------
+   Buttons (Link Buttons)
+   --------------------------------------------------------- */
+
+.linkbutton {
+    background-color: #6a329f;
+    color: #e3f233;
+    padding: 15px 25px;
+    display: inline-block;
+    text-decoration: none;
+    font-family: 'Lexend', sans-serif;
+    border-radius: 9999px;
+    border: 5px solid transparent;
+    box-sizing: border-box;
+    margin-right: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.linkbutton--newline {
+    display: block;
+    width: fit-content;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+/* Hover */
+.linkbutton:hover {
+    background-color: #e3f233;
+    color: #6a329f;
+    border-color: #6a329f;
+}
+
+/* Active */
+.linkbutton:active {
+    background-color: #9ACD32;
+    color: #5f2d8f;
+    border-color: #5f2d8f;
+}
+
+.linkbuttonmodule {
+  background-color: #6a329f;
+  color: #e3f233;
+  padding: 15px 25px;
+  display: inline-block;
+  text-decoration: none;
+  font-family: 'Lexend', sans-serif;
+  border-radius: 9999px;
+  font-size: 24px;
+  margin-bottom: 0.75rem;
+  margin-top: 0.5rem;
+
+  border: 5px solid transparent; /* pre-allocate maximum border */
+  box-sizing: border-box;
+}
+
+/* Hover */
+.linkbuttonmodule:hover {
+  background-color: #e3f233;
+  color: #6a329f;
+  border-color: #6a329f; /* only color changes */
+}
+
+/* Active */
+.linkbuttonmodule:active {
+  background-color: #9ACD32;
+  color: #5f2d8f;
+  border-color: #5f2d8f; /* only color changes */
+}
+
+
+/* ADDITIONAL THING FOR RIGHT ALIGNED GO BACK BUTTONS: */
+
+.linkbutton--right {
+    margin-left: auto;
+}
+
+/* Additional styling to round out images (SPECIFIC CLASS called .rounded-image) */
+
+.rounded-image {
+    border-radius: 20px;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.6);
+    max-width: 600px;
+    height: auto;
+    margin: 0.5rem;
+}
+
+/* Navbar style */
+
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #6a329f;
+    display: flex;
+    flex-wrap: wrap;
+    font-family: 'Lexend', sans-serif;
+}
+
+.navbar li {
+    flex: 1;
+    min-width: 150px;
+}
+
+
+
+.navbar li a {
+    display: block;
+    color: #e3f233;
+    text-align: center;
+    padding: 20px 30px;
+    text-decoration: none;
+    font-family: 'Lexend', sans-serif;
+    border: 5px solid transparent;
+    box-sizing: border-box;
+}
+
+.navbar li a:hover {
+    background-color: #e3f233;
+    color: #6a329f;
+    border-color: #6a329f;
+}
+
+.navbar li a:active {
+    background-color: #9ACD32;
+    color: #5f2d8f;
+    border-color: #5f2d8f;
+
+}
+
+/* Container styling below */
+
+.container {
+    max-width: 1200px;  /* I heard that 1200 px is the good amount for breathing room on a site...*/
+    margin: 0 auto;     /* centering the content is kinda also important - i need to look back at this part.*/
+    padding: 0 20px;    
+    box-sizing: border-box;
+}
+
+.glass {
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(10px); /* this is actually valid, but like GDB is so bad (even Juicmind a little) it just says unknown */
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 20px;
+  padding: 1.25rem;
+
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+  display: block;
+}
+
+/* Header spacing */
+
+header {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 1.5rem;
+}
+
+/* Section spacing */
+
+section {
+
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+/* Sidebar stuff */
+
+.page-layout {
+    display: grid;
+    grid-template-columns: 260px 1fr;
+    gap: 2rem;
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+.sidebar {
+    position: sticky;
+    top: 1.5rem;
+    align-self: start;
+    border-radius: 20px;
+    padding: 1rem;
+    background-color: #6a329f
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar li {
+    margin-bottom: 0.4rem;
+}
+
+.sidebar a {
+    display: block;
+    color: #e3f233;
+    text-decoration: none;
+    padding: 0.5rem 0.75rem;
+    border-radius: 10px;
+}
+
+.sidebar a:hover {
+    color: #6a329f;
+    background-color: #e3f233;
+}
+
+.sidebar a:active {
+    color: #5f2d8f;
+    background-color: #9ACD32;
+}
+
+.sidebar a.current {
+    color: #6a329f;
+    background-color: #e3f233
+}
+
+/* Gear Ratio Calculator Styling */
+
+.gear-ratio-calculator {
+    background-color: #e3f233;
+    border-radius: 20px;
+    border: 5px solid #6a329f;
+    padding: 1rem;
+    display: block;
+}
+
+.purple {
+    color: #6a329f;
+}
+
+/* Mobile compatibility stuff */
+
+@media (max-width: 768px) {
+
+  /* ===============================
+     LAYOUT
+     =============================== */
+
+  .page-layout {
+    grid-template-columns: 1fr;
+    padding: 0.5rem;
+  }
+
+  .sidebar {
+    position: static;
+    margin-bottom: 1rem;
+  }
+
+  /* Navbar specific stuff yeah */
+
+    /* ===============================
+     NAVBAR (MOBILE OVERRIDE)
+     =============================== */
+
+  .navbar {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .navbar li {
+    flex: none;
+    width: 100%;
+    min-width: unset;         
+  }
+
+  .navbar li a {
+    text-align: left;
+    padding: 14px 18px;
+    font-size: 16px;
+  }
+
+  /* ===============================
+     HEADER (LOCKED BEHAVIOR)
+     =============================== */
+
+  header {
+    display: flex;
+    flex-direction: column;      /* ALWAYS stack on mobile */
+    align-items: flex-start;
+    gap: 0.75rem;
+  }
+
+  .header-left {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  #websiteTitle {
+    font-size: 28px;
+    white-space: normal;         /* allow wrapping, no jumping */
+  }
+
+  #logo {
+    width: 90px;
+    height: auto;
+  }
+
+  .linkbutton--right {
+    margin-left: 0;
+    align-self: flex-start;      /* consistent placement */
+  }
+
+  /* ===============================
+     TYPOGRAPHY
+     =============================== */
+
+  h1 { font-size: 28px; }
+  h2 { font-size: 22px; }
+  h3 { font-size: 18px; }
+  p  { font-size: 16px; }
+
+  /* ===============================
+     BUTTONS
+     =============================== */
+
+  .linkbutton,
+  .linkbuttonmodule {
+    width: 100%;
+    text-align: center;
+  }
+
+  /* ===============================
+     IMAGES
+     =============================== */
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .rounded-image {
+    max-width: 100%;
+    margin: 0.5rem auto;
+  }
+
+  /* ===============================
+     CONTENT CONTAINER
+     =============================== */
+
+  .container {
+    padding: 0 12px;
+  }
+}
