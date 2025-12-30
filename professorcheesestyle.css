@@ -261,9 +261,22 @@ body {
     box-sizing: border-box;
 }
 
+.split-container {
+    max-width: 590px;  /* 590 px is okay ig...*/
+    margin: 0 auto;     /* centering the content is kinda also important - i need to look back at this part.*/
+    padding: 0 20px;    
+    box-sizing: border-box;
+}
+
 .card-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.split-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
     gap: 20px;
 }
 
@@ -475,6 +488,18 @@ section {
 
   .container {
     padding: 0 12px;
+  }
+
+    .card-grid {
+    flex-direction: column;      
+    align-items: center;         
+    gap: 1rem;
+    padding: 1rem;
+  }
+
+  .card-grid > * {
+    width: 100%;
+    max-width: 500px;           
   }
 }
 
