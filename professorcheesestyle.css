@@ -517,3 +517,30 @@ footer {
     text-align: center;
 }
 
+/* Search Bar */
+
+#searchBar {
+
+    width: 100%;
+    max-width: 500px;
+    background-color: #f9f9f9;
+    color: #000000;
+    padding: 15px 25px;
+    display: inline-block;
+    text-decoration: none;
+    font-family: 'Lexend', sans-serif;
+    border-radius: 9999px;
+    border: 5px solid #6a329f;
+    box-sizing: border-box;
+    margin-right: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    outline: none;
+    appearance: none;
+    -webkit-appearance: none;
+}
+
+#searchBar:focus {
+    border: 5px solid #e3f233;
+    box-shadow: 0 0 0 3px #000000
+}
