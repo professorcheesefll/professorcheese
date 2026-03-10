@@ -349,7 +349,7 @@ section {
 
 .sidebar a:hover {
     color: #6a329f;
-    background-color: rgba(227, 242, 51, 0.5);
+    background-color: rgba(227, 242, 51, 0.8);
 }
 
 .sidebar a:active {
