@@ -69,15 +69,21 @@ p, ol li {
 }
 
 .navbar li a:hover {
-    background-color: #e3f233;
+    background-color: rgba(227, 242, 51, 0.8);
     color: #6a329f;
     border-color: #6a329f;
+
 }
 
 .navbar li a:active {
     background-color: #9ACD32;
     color: #5f2d8f;
     border-color: #5f2d8f;
+}
+
+.navbar a.current {
+    color: #6a329f;
+    background-color: #e3f233
 }
 
 /* --- Buttons --- */
@@ -325,3 +331,4 @@ footer {
     font-size: 1.25rem;          
     text-align: center;
 }
+
