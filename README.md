@@ -18,3 +18,6 @@ Professor Cheese is a free-to-use website with high quality robotics education. 
 
 - Actively maintained by a former competitive FLL Alumni and Youth Mentor
 
+## Organization
+
+- This repository, as you'll notice, is not very organized, as the setup is cleaned on VS Code rather than on the repository itself
